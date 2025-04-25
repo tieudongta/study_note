@@ -1,0 +1,17 @@
+Command Line Utilities Definition and Example
+cat - Concatenate and display file content
+	Def: outputs the contents of a file to the terminal
+	Ex: cat notes.txt //this will print all the text inside notes.txt
+more - view file content one screen at a time
+	Def: Displays file content page-by-page (useful for long files)
+	Ex: more longfile.txt //Use Enter to scroll line-by-line and Space to scroll page-by-page
+less - Better file viewer (backward/forward navigation)
+	Def: Like more, but allows both forward and backward navigation
+	Ex: less longfile.txt //Use up and down arrow button or Page Up/Page Down to scroll. Press q to quit
+grep - Search for a pattern in text
+	Def: Searches for lines matching a keyword or pattern
+	Ex: grep "error" logfile.txt //This will show all lines in logfile.txt that contain the word "error".
+rm - Remove/Delete files or directories
+	Def: Deletes files (or directories with a flag)
+	Ex: rm unwanted.txt // delete a file permanently
+	Ex: rm -r old_folder //delete a folder and its contents permanently
