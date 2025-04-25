@@ -1,0 +1,177 @@
+JavaScript Use Cases
+- Website Interactivity
+- Form Validation
+- Client-Side Data Manipulation
+- API integration //Js can fetch data from external sources (APIs) and display it on web pages without needing to reload.
+- Game Development
+- Server-Side Development (Node.js)
+
+Variable Declaration
+- Keyword: let vs const //let can change value later. const cannot
+- Variable Name: camel case naming convention
+Data Types
+- Numbers (numeric data type)
+- Strings (text data type)
+- Booleans (True/False data type)
+- Null and Undefined //used to signify that a variable or value doesn't exist. when a variable is declared but hasn't been assigned a value, it is automatically set to undefined.
+- Arrays (Complex data type) //collections of values stored inside square brackets []
+- Objects (Complex data type) //consist of key-value pairs, enclosed in curly braces {}
+* Primitive data type vs Complex Data Types
+
+Variable Reassignment
+- changing the value stored in a variable after it has been initially assigned.
+- able to change not only value but also data type.
+
+Variables and Data Type Flash cards
+- What is the variable name used for? The variable is the label used to refer to the data stored.
+- What is the camel case naming convention in JavaScript? It is a convention where the first word is lower cased and the first letter in the next word is capitalized. When the two words are combined, the capitalized letter resembles a hump in a camel's back.
+- What keywords are used to declare variables in JavaScript? 
+	Variables are declared using the keywords let or const.
+- What are data types in JavaScript and how does variable reassignment allow for flexibility in programming?
+	Data types in JavaScript include primitive and complex types, which can hold different kinds of information. Variable reassignment allows you to change the value inside a variable to adapt to changing program needs. JavaScript's flexibility in variable reassignment makes it like a shpe-shifting container that can hold treasures of all kinds.
+- Can you declare and assign a value to a variable in a single line? Declaring and assigning a value to a variable can be done in a single line.
+- What does declaring a variable mean in programming?
+	Decaring a variable means reserving a special spot in your program's memory to store data that you can use later.
+- What naming convention is often used when labeling variables and functions?
+	The camel case naming convention is often used when labeling variables and functions.
+- What is the difference between 'let' and 'const' when declaring a variable in JavaScript?
+	'let' is used to declare a variable that can be changed later in the code, while 'const' is used to declare a variable that cannot be changed.
+- What are JavaScript variables used for?
+	JavaScript variables are containers used to store data.
+- What is assigning a value to a variable like?
+	Assigning a value to a variable is like putting something inside a labeled container.
+- What are some data types that variables can hold in JavaScript?
+	Variables can hold different data types such as numbers, strings, booleans, null, undefined, and arrays.
+- What is the difference between primitive and complex data types in JavaScript?
+	Primitive data types are the basic building blocks of data, representing a single, indivisible value such as numbers, strings, booleans, null and undefined. Complex data types are made up of multiple values and can hold more complex structures like arrays and objects.
+
+Arithmetic Operators
+- Addition Operator
+- Subtraction Operator
+- Multiplication Operator
+- Exponentiation (**)
+- Division Operator
+- Remainder Operator
+- Increment Operator
+- Decrement Operator
+- Order of Operation: PEMDAS (Parenthese, Exponentiation, Multilication/Divsion, Addition/Substraction)
+- Type Coercion: convert one type of data into another type, so that it can work with different types of data together.
+Arithmetric Operators Flash cards
+- What are arithmetic opertors and why are they important in programming?
+	Arithmetic operators are essential tools for performing calculations with numbers stored in variables in programming. The addition operator lets you add numbers together, while the subtraction operator helps you take away one number from another. The multiplication operator lets you create bigger numbers by repeating a number a certain number of times, and the exponentiation operator is like using a number to 'power up' another nuber. The division ooerator helps you split a number into smaller groups of find out how many times one number fits into another. These operators are like the building blocks for making your programs do math and solve problems.
+- What is order of operations?
+	Order of operations is a set of rules for solving math problems step by step
+- What does the decrement operator do?
+	The decrement oerator subtracts 1 from a number.
+- What is type coercion?
+	Type coercion converts one type of data into another type so that they can work together.
+- What does the remainder opertator do?
+	The remainder operator finds the leftover when dividing two numbers.
+- What does the increment operator do?
+	The increment operator adds 1 to a number.
+
+Assignment Operators
+- Longhand Version vs Shorthand version
+
+Control Flow and Logic
+- Control Flow: the order in which statements or instructions in a program are executed.
+- Sequential Execution: line by line, from top to bottom.
+- Conditional Execution: conditional statements like if, else if, else allow code to make decisions
+- Looping: Looping constructs like for and while enable code to repeat a set of instructions multiple times until a certain condition is met.
+- Function calls: jumps to the called function's code, executes it, and then returns to where it left off in the calling code.
+- Logic: decision-making process some key aspects are boolean values, conditional statements, logical Opertors (&&, ||, !), and Comparison Operators (<, >, ==, !=)
+Control Flow and Logic Flash Cards
+- What is Logic in programming?
+	Logic in programming involves making decisions and performing actions based on conditions and boolean values.
+- What are function calls related to?
+	Function calls are related to asking someone to perform a specific task to assist you.
+- What does the journey through the mystical forest represent?
+	The journey through the mystical forest is an analogy for control flow and logic in programming.
+- What do conditional statements in programming mirror?
+	Conditional statements in programming are mirrored by the decision to go left or right at a crossroads.
+- What does looping represent?
+	Looping is represented by crossing a magical bridge multiple times until a pecific condition is met.
+- What does the sequential execution of code represent?
+	The sequential execution of code is represented by each step taken in the forest.
+- What is Control flow?
+	Control flow is the order in which statements or instructions in a program are executed, and it's often controlled by conditional statements, loops, and function calls.
+- What are Control flow and logic in programming?
+	Control flow and logic are fundamental concepts in programming that dictate how a program executes instructions and makes decisions.
+- What are the key aspects of Logic in programming?
+	Boolean values, conditional statements, logical operators, and comparison opertors are key aspects of logic in programming.
+- What do enchanted stones represent?
+	Boolean values influence decisions, represented by enchated stones that either glow or remain dark.
+
+
+Sequential Execution
+- Can variables be assigned new values multiple times as a program progresses?
+	Yes, variables can be assigned new values multiple times as the program progresses, keeping a running total of a value.
+- What helps determine the new value of a variable when it is updated?
+	Each time a variable is updated with a new value, the previous value helps determine the new one.
+- In the context of sequential execution, what does 'No Skipping' mean?
+	In sequential execution, you don't skip or jump over lines of code unless you encounter specific control flow structures.
+- What does sequential execution in programming refer to?
+	Sequential execution in programming refers to the order in which statements or instructions are executed, one after the other, from top to bottom.
+- What does sequential execution follow in a program?
+	Sequential execution follows the logical flow of your program, ensuring that instructions are carried out in the correct order tto achieve the desired outcome.
+- What can alter the sequential flow of code?
+	Control flow structures like loops or conditional statements can alter the sequential flow by allowing you to repeat code or make decisions.
+- What is the purpose of sequential execution in programming?
+	To give the computer a series of commands that it follows one after the other.
+- What is sequential execution in programming?
+	The order in which statements or instructions are executed one after the other from top to bottom.
+- What does sequential execution make the output of a program?
+	Sequential execution makes the output of your program predictable and easier to understad.
+- How would you apply the concept of sequentaial execution in a program that calculates the toatal socre of a player in a game?
+	By assigning the variable playerScore new values multiple times as the game progresses, using the previous value to determine the new one.
+- Is sequential execution a fundamental concept in programming?
+	Yes, sequential execution is a fundamental concept in programming.
+- What does sequential execution in programming allow you to do?
+	It allows you to give your computer a series of commands that it follows one after the other.
+- What does sequential execution in programming refer to?
+	Sequential execution in programming refers to the order in which statements or insturctions are executed, one afer the other, from top to bottom.
+- What is the role of sequential execution in ensuring the output of a program?
+	It ensures that instructions are carried out in the correct order to achieve the desired outcome.
+- In what order is code executed by default?
+	Code is executed in the order it appears in your program, starting from the first line and moving sequentially to the next.
+- Why is sequential execution important in programming?
+	Sequential execution is important for making programs do what you want.
+- What is the purpose of sequential execution in programming?
+	To ensure that instructions are carried out in the correct order to achieve the desired outcome.
+- How can exercise help improve understanding of sequential execution
+	Exercise can help improve understanding of sequential execution.
+
+Basic functions
+- Built-in functions vs User-defined Functions
+- Keyword: function
+- Function Name
+- Parameters
+- Function Body
+- Function call
+
+* console.log(var1,var2);
+
+Nested Functions 
+- functions defined inside another function.
+Flashcard
+-What is the function call in a user-defined function?
+	The function call is when you actually use the function by providing a value for the parameter.
+- Why are nested functions useful?
+	This makes them useful for breaking down complex tasks into smaller pieces.
+- What are the components of a user-defined function?
+	They consist of a function keyword, a function name, parameters, and a function body.
+- What are nested functions?
+	Nested functions are functions defined inside another function.
+- Can functions be used multile times?
+	Functions can be created once and used many times.
+- What is a parameter in a user-defined function?
+	A placeholder for a value that will be provided when the function is used.
+- What are user-defined functions like in JavaScript?
+	User-defined functions are like custome recipes for JavaScript.
+- What can nested functions access?
+	They can access variables from their containing function.
+- What are some examples of built-in functions in JavaScript?
+	JavaScript provides pre-made functions for various tasks, similar to pre-made toys or gadgets. Examples of built-in functions include console.log(), alert(), Math.random(), Array.isArray(), and parseInt();
+- What can nested functions do with variables passed to their containing function?
+	Nestd functions can access and use variables passed to their containing function.
+
