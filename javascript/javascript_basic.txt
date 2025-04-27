@@ -9,6 +9,7 @@ JavaScript Use Cases
 Variable Declaration
 - Keyword: let vs const //let can change value later. const cannot
 - Variable Name: camel case naming convention
+
 Data Types
 - Numbers (numeric data type)
 - Strings (text data type)
@@ -174,4 +175,31 @@ Flashcard
 	JavaScript provides pre-made functions for various tasks, similar to pre-made toys or gadgets. Examples of built-in functions include console.log(), alert(), Math.random(), Array.isArray(), and parseInt();
 - What can nested functions do with variables passed to their containing function?
 	Nestd functions can access and use variables passed to their containing function.
+
+Conditional Execution
+- Conditional checking
+= Branching
+= Control flow
+- If Else Statement
+- Switch Statement
+- What is the purpose of the if statement?
+	The if statement checks a condition and executes a block of code if it's true. It's like a gatekeeper that allows or denies access.
+- What does the 'default' case do in a switch statement?
+	if none of the case statements match the expression, the default case acts like a catch- all option
+- What is the purpose of if...else statement in programming?
+	To allow the program to make choices and take different actions based on certain conditions
+- What is the role of if..else and switch statements in conditional execution?
+	They control the flow of your program by determining which code blocks should be executed and which should be skipped.
+- What is the role of the 'break' statement in a switch statement?
+	It tells the program to stop checking and move on to the next part of the code
+- What are conditional statements and how do they hel in programming?
+	Conditional statements in programming allow your code to make decisions and respond intelligently to various situations. They are a fundamental part of programming and can be used to create decision trees. Switch statements are a neat way to handle multiple possibilities and make your code more organized and readable. They allow your program to choose the right action based on a specific condition or value. Switch stetements re like a menu with multiple choices that help your program make decisions.
+- What are the components of an if statement?
+	The if statement starts with the keyword 'if', followed by a condtion in parenthesees, and a block of code in curly braces that runs if the condition is true.
+- What is the function of the the 'default' case in a switch statement?
+	If none of the case statements match the expression, the default case acts like a catch-all option.
+- What is conditional execution in programming and how is control flow implemented through conditional statements?
+	Conditional execution in programming allows code to behave differently based on specific conditions, using logical expressions or comparison operators. Control flow is implemented through conditional statements like if, else if, else and swtch statements. These statements determine which code blocks should be executed and which should be skipped.
+- What is the default case in a switch statement?
+	A catch-all option if none of the case statemetns match the expression
 
