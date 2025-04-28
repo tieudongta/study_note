@@ -1,0 +1,32 @@
+create a webpage with <!DOCTYPE html> and <html> element lang=en
+create head and body element
+in head create a title text Colored Markers
+create meta with charset to utf-8
+create meta with name to viewport and content to width=device-width, initial-scale=1.0
+in body nest a h1 with text CSS Golor Markers
+create a styles.css
+link it to the html file
+in styles.css had h1 set text-align to center
+below h1, add div set class to container
+in the div, add another div set class to marker
+in styles.css, add rule for marker set background-color to red
+set height to 25px, width to 200px
+set margin to auto to center the div
+add 2 more div with class marker to the div class container
+in .marker rule, set margin to 10px auto to reset the top/bottom
+add class named one to the first marker div
+remove background-color from .marker in css
+add class one to css background-color to red
+add class two, three to the other marker div
+create .two, .three in css with background-color to green and blue
+create .container set background-color to black with rgb(0,0,0)
+use the css function rgb to set color for .one, .two, .three
+set g in .two to 127
+in .container set padding 10px 0
+reset g in .two to 255
+in .container set rgb all to 255
+update .one to combine pure red and pure green
+update .two to combine p green and p blue
+update .three combine p b and p red
+update all three with tertiary color;
+hsl(244, 100%, 50%) hue 0-360, saturation 0% - 100%, light 0-100%
