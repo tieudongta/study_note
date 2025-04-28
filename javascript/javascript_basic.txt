@@ -203,3 +203,122 @@ Conditional Execution
 - What is the default case in a switch statement?
 	A catch-all option if none of the case statemetns match the expression
 
+Comparison Operators
+- equality ==
+- strict equality ===
+- inequality !=
+- less than <
+- less than or equal <=
+- greater than >
+- greater than or equal >=
+*if short hand (conditional expression)?output1:output2 (output2 may be another shorthand for else if case)
+-What are comparison operators like?
+	Comparison operators are like tools that help code make decisions based on conditions.
+- What does the strict equality opertor check?
+	The strict equality operator checks if two values match and have the same data type.
+- What does the equality operator check?
+	The equality operator checks if two values match without considering their data types.
+- What do the comparison operators in programming help with?
+	The text explains the usage of comparison operators in programming, such as the ineqquality, less than, less than or equalm greater than, and greater than or equal operators. These operators help make decisions based on whether one value is smaller, larger, or equal to another value. The text provides examples of each operator in an if statement and how they can be used to determine a user's age. The exercises provided help reinforce the knowledge of these opertors.
+- What is the difference between the strict equality opertator and the regular equality operator in programming?
+	The strict equality operator checks if two values are equal and ensures that they are of the same data type, while the regular equality oeprtor only checks if the values are equal.
+- What do JavaScript comparison operators help with?
+	JavaScript comparison operators help make decisions based on true or false conditions.
+- What does using the correct comparison operator ensure?
+	Using the correct comparison operator ensures precise comparisons and accurate decision-making.
+- what does the inequality operator check?
+	The inequality operator checks if two values or expressions are not equal to each other, including date type.
+
+Logical operators
+- AND (&&)
+- OR (||)
+- NOT (!)
+* usable !! double negative
+-typeof operator
+- how can using typeof ensure the correct data type is being used?
+	Using typeof can ensure that the correct data type is being used for specific operations or validations in code.
+- What does the AND operator return?
+	AND  returns ture only if all conditions are true.
+- What does the NOT operator do?
+	NOT negates a condition.
+- Where are logical operators commonly used?
+	lOGICAL OPERATORS ARE COMMONLY USED IN CONDITIONAL STATEMENTS TO CREATE MORE COMPLEX CONDITIONS.
+- What do logical operators in programming do?
+	Logical operators in programming combine and manipulate conditions to make complex decision with boolean values.
+- How can understanding logical operators and datat type help in programming?
+	Understanding logical operators and data types can help create more flexible and robust programs in JavaScript.
+- What is an example of using typeof?
+	An example of using typeof is checking the data type of variables like userName and userAge.
+- What are some common data types that typeof can return?
+	Common data types that typeof can return include string, number, boolean, undefined, object, array, and function.
+- What does the OR operator return?
+	OR returns true if at least one condition is true.
+- What does the typeof opertator in JavaScript do?
+	The typeof operator in JavaScript determines the data type of a value or expression.
+- What are the three primary logical operators in JavaScript?
+	The three primary logical operators in JavaScript are AND, OR, and NOT.
+- What is the purpose of logical operators in programming?
+	To combine and manipulate conditions to make more complex decisions in code.
+- What does the typeof operator return when used on an undefined value?
+	it returns 'undefined'
+
+Loops and Jump Statements
+- For Loop: know in advance how many times to repeat
+- While Loop: don't know how many times but have a condition that must be met.
+- Do-While Loop: similar to While Loop but ensures the code block to be executed at least once
+- For-In Loop (Object Iteration): used to iterate over the properties of an object.
+- For-Of Loop (Array and Iterable Iteration): used to iterate over the elements of an array or any iterable object.
+- Continue Statement: used to skip the current iteration of a loop and move on to the next iteration.
+- Break Statement: used to exit a loop prematurely.
+- 
+
+Arrays
+- Array literal notation. way to define an array directly in code.
+- Array constructor: another way to create arrays. using keyword new follow by Array() useful when creating arrays dynamiclally or with a predefined length.
+- Accessing Array Elements
+- Modify Array or also add new element with value
+- Array length
+- Push()// add one or more elements to the end and Pop() //remove the last elements from an array
+- Join("") // convert the elements of an array into a single string join(seperator) in which seperator is a string and optional.
+- For...Of Loop: used to iterate over the values of an iterable object, such as an array, string, or other iterable data structures.
+- What are arrays in JavaScript and how are they indexed?
+	Arrays in JavaScript are 0-based indexed data structures used to store multiple values. Bracket notation is used to access and modify array elements. The .length property returns the number of elements in an array. The for...of loop is a concise way to iterate over the values of an iterable object like an array.
+- What are arrays and how can they be created in JavaScript?
+	Arrays are containers that can hold different types of data and are fundamental in coding. They can be created using array literal notation or array constructors. Accessing array elements is done using breacket notation with a 0-based index.
+
+Objects
+- Properties and methods
+- Object literal notation
+- Object constructor: using new Object() 
+- Using Dot Notation or Bracket Notation to assign value to object properties. providing flexibility when creating an object dynamically or in more complex scenarios.
+- Property Accessor (Dot Notation)
+- Properties Accessor (Breacket Notation)
+	Using string literal
+	Using a variable
+	In case of Special Character and space
+- Modifying Ojbects
+	Using Dot Notation
+	Using Bracket Notation
+- Delete Operator
+- Object Methods
+	Defining Object Methos
+	Calling Object Methods
+	Accessing Object Properties
+	Benefits of Object Methods: Encapsulation, Modularity, Context Awareness, 
+- For...In Loop
+	
+** Different between let and var Scope, Hoisting, Redeclaraition, Global Object
+
+JS Libraries and Frameworks
+- Libraries: a collection of pre-written JavaScript code (jQuery, Lodash, Axios)
+- frameworks: tool that provides a structured foundation for building web app. enforce a specific architecture, offer a set of tools, patterns, and best practices.
+- Framewors ex: React, Angular, Vue.js
+
+Debguing
+- console.log();
+- debugger Statement //puse the program at the debugger point;
+- browser Developer tools: shortcut F12 or Ctrl+Shift+I
+- inspecting Error Messages
+- Code Reviews
+
+
