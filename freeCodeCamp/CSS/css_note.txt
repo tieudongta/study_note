@@ -1,0 +1,95 @@
+Building a Cafe Menu
+- add the <!DOCTYPE html>, html element with a lang attribute of en
+- add head element, title element. title text "Cafe Menu"
+- nest a meta element with attribute charset set to utf-8
+- add body element
+- add main in body
+- add a h1 with CAMPER CAFE text
+- add a p with text as Est. 2020.
+- add section element
+- in section add h2 with text: Coffee
+- add style element in head element (with closing tag)
+- in style add h1 setting its text-align property to the value center
+- also add the same thing for h2, and p
+- create a separate styles.css
+- rewriting the styles created. (make sure exlude the opening and closing style tags.
+- remove style element in html file;
+- add link element in head, give it a rel attribute with value of "stylesheet and href of "style.css"
+- add another meta element with content attribute = "width=device-width, initial-scale=1.0" and name="viewport.
+- add property background-color: brown for body element in css file.
+- change brown to burlywood
+- create a div in body and move everything inside.
+- add id attribute value menu to div
+- in style.css use #menu selector to give the element a width of 300px
+- comment out background-color property using /* */
+- add background-color value burlywood to #menu
+- change width in #menu to 80%
+- in #menu set margin-left and margin-right to auto so it centers the #menu element
+- change #menu selector into class selector .menu
+- remove id attribute in div change to class with menu value
+- in body remove the comment out content 
+- replace it with background-image set value to url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)
+- add an empty article element under h2 Coffee
+- nest 2 p in article with text as 'French Vanilla' and '3.00'
+- add more with the info: 
+Caramel Macchiato 3.75
+Pumpkin Spice 3.50
+Hazelnut 4.00
+Mocha 4.50
+- add class name flavor to p of French Vanilla
+- in styles.css create class flavor set text-align to left
+- add class name price to p of 3.00
+- instyles.css create class price set text-align to right
+- add class name item to first article
+- in styles.css set disply to inline-block for p in class item
+- add width to class flavor and price to 50%;
+- change 50% to 49%;
+- use backspace to move p .price next to p .flavor
+- change 49% back to 50%
+- apply for the rest articles and p
+- change widht of .flavor to 75% and .price to 25%
+- add a new section below the first
+- add h2 with text= Desserts in the section
+- add article class items under h2
+- add 2 p unseperated with text Donut and 1.50
+- add class dessert and class price
+- add class dessert in same as class flavor
+- add the flowing:
+Cherry Pie 2.75
+Cheesecake 3.00
+Cinnamon Roll 2.50
+- Give menu class a padding-left and padding-right to 20px
+- do the same to padding-top and padding-bottom
+- remove the 4 padding and set to padding
+- add max-width to menu class to 500 px to prevent it from growing too wide
+- add font-family to body with value= sans-serif
+- style h1, h2 font Impact
+- add a fallback value to font-family Impact as serif
+- create class established font-style=italic 
+- set font-size for h1=40px, h2=30px
+- under main element add footer
+- add a p and nested a tag href=https://www.free.com/" target="_blank" to the text= Visit our website
+- add second p under the first with some text Free Code Camp Drive
+- add a hr element between the established class p and the first section element
+- in styles.css change height of hr to 3px
+- also change its background-color to brown
+- also change its bordercolor to brown
+- change the height to 2px
+- create a hr bwt main and footer
+- in body add padding = 20px
+- add margin-bottom, margin-top to p of class item vlue=5px
+- add also font-size to 18px;
+- add a class named bottom-line with margin-top: 18px
+- add class bottom-line to the second hr
+- set font-size = 14px for footer
+- set a tag color property to black
+- set a:visited color to grey
+- set a:hover color to brown
+- set a:active color to white
+- add margin-top = 0px and martin-bottom = 15px to h1
+- create class address with margin-bottom = 5px
+- under Coffee h2 add an img using src=https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg alt="coffee icon"
+- add img selector display=block, margin-left, margin-right: auto
+- add image under Desserts h2 using src=https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg alt= pie icon
+- add property margin-top to img with negative value -25px
+
