@@ -1,0 +1,70 @@
+learn HTML Forms by Building a Registration Forms
+create html file from declare doctype to html element add
+add head and body element
+add title with Registration Form text and meta charset
+create styles.css file and add link in html file
+add h1 with Registration Form
+below add a p with content as Please fill out this form with the required information
+in css give body width: 100% and height: 100vh (vh viewport height 1 vh = 1% of viewport height)
+add margin to body =0 to get rid of scroll bar
+add background-color = #1b1b32 and color to #f5f6f7
+after p add a form with action to https://register-demo.freecodecamp.org
+set method to post
+add 3 fieldset in form
+add 4 label element to first fieldset
+add text to label Enter Your First Name: Enter Your Last Name: Enter Your Email: Create a New Password:
+css file, add display:block and margin: 0.5rem 0 for label element (rem means root em, relative to font size of html element)
+Nest input element within each label
+Use first-name, last-name, email, and new-password as id of input and for of label
+Assign type with value as text, email, password for the input element
+After the last fieldset, add input element with type= submit and value= Submit
+add required attributes to input elements in first fieldset
+for password input add attribute minlength=8
+add attribute pattern with value [a-z0-5]{8,} as regular expression to input password and remove minlength
+add 2 label in second fieldset
+add input type radio in label
+in the label right after input add a space and text as personal Business
+to relate radio input give them attribute name with same value account-type
+add element legend with text Account type (required) before label elements and add checked attribute to personal input
+add for attributes to label and id attribute named personal-account and bussiness-account to input
+after the third fieldset, add a label input element set type as checkbox. make it required, add id and for as terms-and-conditions to the elements
+add text I accept the terms and conditions after the input, then link to free.com
+in the final fieldset, add a label text Upload a profile pricture: and input type=file to accept a file upload.
+add another label Input your age (years): and input type number with att max 120 min 13
+add select element below final label, within which add 5 option elements
+nest select element with a label with text How did you hear about us?
+add option text 
+(select one)
+freeCodeCamp News
+freeCodeCamp YouTube Channel
+freeCodeCamp Forum
+Other
+give first option value of empty, other option value from 1 to 4
+Add a label with text Provide a bio: at the end of the fieldset. Add textarea element inside the label.
+provide value profile-picture, age, referer, and bio to the id attributes and for attributes
+add attributes rows 3 and cols 30 to textarea
+add placeholder attribute "i like coding on the beach..." to textarea
+add name attribute to all input element
+in css add to body font Tahoma, size 16px
+center h1, p by margin 1em auto, align text to center
+center form by margin 0 auto, maxwith 500px, min width 300px, and width - 60vw
+remove border from fieldset add 2rem for top and bottom of fieldset.
+set border-bottom of fieldset to 3px solid #3b3b4f
+use :last-of-type to create selector for last fieldset set border-bottom to none
+select input, textarea, and select elements make them take up full width of their parent element, add margin-top 10px other margins to 0
+give input element in second fieldset class inline
+in css set width for .inline to unset
+set .line margin right to 0.5em other to 0
+set vertical-align of .inline to middle
+set background-color of input and textarea to #0a0a23, border 1px, solid #0a0a23
+set color to #ffffff and min-height to 2em
+move the min-height to apply for all three of them
+use attribute selector to style submit button to display block and width 60%
+center the button by adding margin: 0 auto;
+set height 2em, font-size 1.1rem
+set background-color to #3b3b4f and boder-color to white
+set margin 1em auto; and min-width: 300px
+use attribute selector to select input type file set padding 1px 2px
+in form add padding-bottom 2em
+set class inline for input terms and conditoi
+change color of text in link to #dfdfe2
